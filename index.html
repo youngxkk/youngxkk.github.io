@@ -7,24 +7,16 @@ Youngxkk
 		<title>Youngxkk</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body class="loading">
-		<div id="wrapper">
 			<div id="bg"></div>
-			<div id="overlay"></div>
 			<div id="main">
-
 				<!-- Header -->
 					<header id="header">
-						<span class="content1-picture"> 
 						<img class="image" src="assets/css/images/pic01.png" /> 
 						<br>
 						<br>
-						</span> 
 						<h1>Youngxkk</h1>
 						<br>
 						<p>Designer &nbsp;&bull;&nbsp; Coder &nbsp;&bull;&nbsp; BeiJing</p>
@@ -34,7 +26,7 @@ Youngxkk
 								<a href="#"><span data-hover="Beleaguer">Beleaguer</span></a>
 								<li><a href="https://dribbble.com/Youngxkk" target="view_window" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 								<li><a href="#" class="icon fa-qq"><span class="label">QQ</span></a></li>
-								<li><a href="https://www.facebook.com/youngxkk" target="view_window" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" target="view_window" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="https://github.com/youngxkk" target="view_window" class="icon fa-github"><span class="label">Github</span></a></li>
 								<li><a href="#" class="icon fa-wechat"><span class="label">wechat</span></a></li>
 							</ul>
@@ -47,12 +39,15 @@ Youngxkk
 					</footer>
 
 			</div>
-		</div>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		<script type="text/javascript">
+ 		var imgName =  './pic/'+ Math.floor(Math.random() * 10)+'.jpg';
+ 		document.body.style.background  ='url('+imgName+') center no-repeat';
+ 		document.body.style.backgroundSize = 'cover'; 
+
+		window.onload = function() { document.body.className = ''; }
+		window.ontouchmove = function() { return false; }
+		window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
 	</body>
 </html>
