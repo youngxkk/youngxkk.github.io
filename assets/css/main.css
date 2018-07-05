@@ -21,6 +21,7 @@
 /* Basic */
 html{
 	height: 100%;
+
 }
 	body {
 		width: auto;
@@ -99,6 +100,11 @@ html{
 			width: 1px;
 		}
 
+
+/*background*/
+		#bg{
+			background-color: black;
+		}
 /* Header */
 
 	@-moz-keyframes header {
@@ -246,10 +252,10 @@ html{
 	}
 
 	#header {
-		-moz-animation: header 1s 2.25s forwards;
-		-webkit-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
-		animation: header 1s 2.25s forwards;
+		-moz-animation: header 0.25s 0.25s forwards;
+		-webkit-animation: header 0.1s 0.1s forwards;
+		-ms-animation: header 1s 0.25s forwards;
+		animation: header 0.1s 0.1s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -269,6 +275,10 @@ html{
 	}
 
 		#header h1 {
+			-moz-animation: header 1.5s forwards;
+			-webkit-animation: header 0.5s forwards;
+			-ms-animation: header 0.5s forwards;
+			animation: header 1.0s ease-in-out;
 			font-size: 4.35em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
@@ -279,6 +289,7 @@ html{
 
 		}
 		#header p {
+			animation: header 1.0s ease-in-out;			
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
@@ -311,10 +322,10 @@ html{
 			}
 
 				#header nav li:nth-child(1) {
-					-moz-animation-delay: 2.5s;
-					-webkit-animation-delay: 2.5s;
-					-ms-animation-delay: 2.5s;
-					animation-delay: 2.5s;
+					-moz-animation-delay: 0s;
+					-webkit-animation-delay: 0s;
+					-ms-animation-delay: 0s;
+					animation-delay: 0s;
 				}
 
 				#header nav li:nth-child(2) {
@@ -410,7 +421,7 @@ html{
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #000;
+						color: #fff;
 					}
 
 				#header nav a:active {
@@ -420,7 +431,7 @@ html{
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #000;
+						color: #fff;
 					}
 
 				#header nav a span {
@@ -462,11 +473,10 @@ html{
 			font-size: 1em;
 		}
 
-			#header nav a:hover {
+		#header nav a:hover {
 				font-size: 1em;
 			}
-
-			#header nav a:active {
+		#header nav a:active {
 				font-size: 1em;
 			} }
 
@@ -479,6 +489,10 @@ html{
 		}
 	/* head image */	
 		.image { 
+				moz-animation: header 0.25s 0.25s forwards;
+				-webkit-animation: header 0.1s 0.1s forwards;
+				-ms-animation: header 1s 0.25s forwards;
+				animation: header 1.2s  ease-in-out forwards;
 				width:150px; 
 				height:150px; 
 				border-radius:150px; 
