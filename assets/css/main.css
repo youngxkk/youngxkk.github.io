@@ -2,7 +2,7 @@
 @import url("font-awesome.min.css");
 @import url("http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css");
 @import URL("http://cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.css");
-/*<link href='http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css' rel='stylesheet' type='text/css' />*/
+<link href='http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css' rel='stylesheet' type='text/css' />
 /*
 	Aerial by HTML5 UP
 	html5up.net | @ajlkn
@@ -286,7 +286,6 @@ html{
 			letter-spacing: 0.1em;
 			line-height: 1em;
 		}
-		c:url('/assets/fonts/cisco.ttf'),
 			
 
 		}
