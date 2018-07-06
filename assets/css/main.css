@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-
+@import url("http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css");
+@import URL("http://cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.css");
+/*<link href='http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css' rel='stylesheet' type='text/css' />*/
 /*
 	Aerial by HTML5 UP
 	html5up.net | @ajlkn
@@ -27,10 +29,10 @@ html{
 		width: auto;
 		height: 100%;
 		color: white;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'ReductoCondensedSSiCondensed',Source Sans Pro, ABIGILRegular, sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
-		letter-spacing: -0.025em;
+		letter-spacing: 0.1em;
 		line-height: 1.75em;
 		overflow: hidden;
 	}
