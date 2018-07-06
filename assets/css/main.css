@@ -281,7 +281,7 @@ html{
 			animation: header 1.0s ease-in-out;
 			font-size: 4.35em;
 			font-weight: 900;
-			letter-spacing: -0.035em;
+			letter-spacing: 0.1em;
 			line-height: 1em;
 		}
 		c:url('/assets/fonts/cisco.ttf'),
@@ -443,13 +443,13 @@ html{
 	#footer {
 		bottom: 0;
 		cursor: default;
-		height: 6em;
+		height: 5em;
 		left: 0;
 		line-height: 6em;
 		position: absolute;
 		text-align: center;
 		width: 100%;
-		opacity: 0.5;
+		opacity: 0.4;
 	}
 
 /
@@ -491,7 +491,9 @@ html{
 				animation: header 1.2s  ease-in-out forwards;
 				width:150px; 
 				height:150px; 
+				border:3px solid rgba(255, 255, 255, 0.4);
+				padding:3px;
 				border-radius:150px; 
-				border-color: black;
-				border-width: 10px;
+				/*border-color: white;*/
+				/*border-width: 10px;*/
 				} 
