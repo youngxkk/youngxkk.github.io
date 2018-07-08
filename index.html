@@ -36,13 +36,24 @@
 
 			</div>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+
+		<!-- // 下面是每隔5秒自动切换背景图片 -->
 		<script type="text/javascript">
+		 // function time(){
+   //              var imgName =  './pic/'+ Math.floor(Math.random() * 17)+'.jpg';
+		 // 		document.body.style.background  ='url('+imgName+') center no-repeat';
+		 // 		document.body.style.backgroundSize = 'cover'; 
+		 // 		document.body.style.background = 'imageAnimation 6s linear infinite 0s';
+   //      }
+   //      setInterval("time()",8000);  
+                 //自动刷新时间设定为8秒
+
 		//下面是背景图每次刷新都随机变化的函数
- 		var imgName =  './pic/'+ Math.floor(Math.random() * 17)+'.jpg';
+ 		var imgName =  './pic/'+ Math.floor(Math.random() * 18)+'.jpg';
  		document.body.style.background  ='url('+imgName+') center no-repeat';
  		document.body.style.backgroundSize = 'cover'; 
  		document.body.style.backgroundColor = "rgba(0,0,0,0.9) ";
-
+		// 下面是什么我也不知道，但是不能删
 		window.onload = function() { document.body.className = ''; }
 		window.ontouchmove = function() { return false; }
 		window.onorientationchange = function() { document.body.scrollTop = 0; }

@@ -297,7 +297,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px rgba(255, 255, 255, 0.2);
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -313,8 +313,8 @@
 				}
 
 					#header nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.1);
-						color: #fff;
+						background-color: rgba(255, 255, 255, 0.2);
+						border: solid 2px rgba(255, 255, 255, 0.9);
 					}
 
 /*				#header nav a:active {
@@ -330,6 +330,65 @@
 				#header nav a span {
 					display: none;
 				}*/
+
+/*背景图的切换动画*/
+	.cb-slideshow li span {
+	    width: 100%;
+	    height: 100%;
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+	    background-size: cover;
+	    background-position: 50% 50%;
+	    background-repeat: none;
+	    opacity: 0;
+	    z-index: 0;
+		-webkit-backface-visibility: hidden;
+	    -webkit-animation: imageAnimation 36s linear infinite 0s;
+	    -moz-animation: imageAnimation 36s linear infinite 0s;
+	    -o-animation: imageAnimation 36s linear infinite 0s;
+	    -ms-animation: imageAnimation 36s linear infinite 0s;
+	    animation: imageAnimation 36s linear infinite 0s;
+	}
+
+	.cb-slideshow li:nth-child(1) span {
+	    animation-delay: 0.1s;
+	}
+	.cb-slideshow li:nth-child(2) span {
+		 background-image: url(./pic/1.jpg);
+	    -webkit-animation-delay: 6s;
+	    -moz-animation-delay: 6s;
+	    -o-animation-delay: 6s;
+	    -ms-animation-delay: 6s;
+	    animation-delay: 6s;
+	}
+/*背景图的切换动画*/
+
+	@keyframes imageAnimation { 
+		0% {
+		    opacity: 0;
+		    animation-timing-function: ease-in;
+		}
+		8% {
+		    opacity: 1;
+		    transform: scale(1.05);
+		    animation-timing-function: ease-out;
+		}
+		17% {
+		    opacity: 1;
+		    transform: scale(1.1);
+		}
+		22% {
+			opacity: 0;
+			-webkit-transform: scale(1.1) translateY(2%);
+		}
+		25% {
+		    opacity: 0;
+		    -transform: scale(1.2) translateY(5%);
+		}
+		100% { opacity: 0 }
+	}
+
 
 /* Footer */
 
