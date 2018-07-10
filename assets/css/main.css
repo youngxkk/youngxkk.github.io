@@ -6,7 +6,7 @@
 
 
 /*<!--Youngxkk-五道口小鲨鱼-2017-06-30--> */
-
+@font-face {font-family: 'ReductoCondensedSSiCondensed';src: url('//cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.gif?r=79270857188');src: url('//cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.gif?r=79270857188?#iefix') format('embedded-opentype'),url('//cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.png?r=79270857188') format('woff2'),url('//cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.bmp?r=79270857188') format('woff');font-weight: normal;font-style: normal;} 
 
 /* Box Model */
 
@@ -189,7 +189,8 @@
 			margin: 0 0 0 0;
 		}
 		#header ul {
-			margin-right: 2.4em;
+			/*margin-right: 2.4em;*/
+			padding: 0;
 		}
 
 		#header nav li {
@@ -215,31 +216,31 @@
 			}
 
 				#header nav li:nth-child(1) {
-					-moz-animation-delay: 0s;
+					-moz-animation-delay: 2.5s;
 					-webkit-animation-delay: 0s;
 					-ms-animation-delay: 0s;
-					animation-delay: 0s;
+					animation-delay: 2.5s;
 				}
 
 				#header nav li:nth-child(2) {
 					-moz-animation-delay: 2.75s;
 					-webkit-animation-delay: 2.75s;
 					-ms-animation-delay: 2.75s;
-					animation-delay: 2s;
+					animation-delay: 2.75s;
 				}
 
 				#header nav li:nth-child(3) {
 					-moz-animation-delay: 3s;
 					-webkit-animation-delay: 3s;
 					-ms-animation-delay: 3s;
-					animation-delay: 2.5s;
+					animation-delay: 3s;
 				}
 
 				#header nav li:nth-child(4) {
 					-moz-animation-delay: 3.25s;
 					-webkit-animation-delay: 3.25s;
 					-ms-animation-delay: 3.25s;
-					animation-delay: 3s;
+					animation-delay: 3.25s;
 				}
 
 				#header nav li:nth-child(5) {
@@ -253,35 +254,35 @@
 					-moz-animation-delay: 3.75s;
 					-webkit-animation-delay: 3.75s;
 					-ms-animation-delay: 3.75s;
-					animation-delay: 4s;
+					animation-delay: 3.75s;
 				}
 
 				#header nav li:nth-child(7) {
 					-moz-animation-delay: 4s;
 					-webkit-animation-delay: 4s;
 					-ms-animation-delay: 4s;
-					animation-delay: 4.5s;
+					animation-delay: 4s;
 				}
 
 				#header nav li:nth-child(8) {
 					-moz-animation-delay: 4.25s;
 					-webkit-animation-delay: 4.25s;
 					-ms-animation-delay: 4.25s;
-					animation-delay: 5s;
+					animation-delay: 4.25s;
 				}
 
 				#header nav li:nth-child(9) {
 					-moz-animation-delay: 4.5s;
 					-webkit-animation-delay: 4.5s;
 					-ms-animation-delay: 4.5s;
-					animation-delay: 5.5s;
+					animation-delay: 4.5s;
 				}
 
 				#header nav li:nth-child(10) {
 					-moz-animation-delay: 4.75s;
 					-webkit-animation-delay: 4.75s;
 					-ms-animation-delay: 4.75s;
-					animation-delay: 6s;
+					animation-delay: 4.75s;
 				}
 
 			#header nav a {
