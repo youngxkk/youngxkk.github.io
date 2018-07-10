@@ -178,7 +178,7 @@
 			
 		#header p {
 			font-size: 1em;
-			font-family: Source Sans Pro;
+			/*font-family: Source Sans Pro;*/
 			letter-spacing: 0.2em;
 			animation: header 3.0s ease-in-out;			
 			margin: 0.75em 0 0.25em 0;
