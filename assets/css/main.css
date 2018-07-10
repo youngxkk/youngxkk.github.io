@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-@import url("http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css");
-@import URL("http://cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.css");
-<link href='http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css' rel='stylesheet' type='text/css' />
+/*@import url("http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css");
+@import URL("http://cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.css");*/
 
 
 /*<!--Youngxkk-五道口小鲨鱼-2017-06-30--> */
+@font-face {font-family: 'ABIGILRegular';src: url('//cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.gif?r=79271211485');src: url('//cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.gif?r=79271211485?#iefix') format('embedded-opentype'),url('//cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.png?r=79271211485') format('woff2'),url('//cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.bmp?r=79271211485') format('woff');font-weight: normal;font-style: normal;} 
 @font-face {font-family: 'ReductoCondensedSSiCondensed';src: url('//cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.gif?r=79270857188');src: url('//cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.gif?r=79270857188?#iefix') format('embedded-opentype'),url('//cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.png?r=79270857188') format('woff2'),url('//cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.bmp?r=79270857188') format('woff');font-weight: normal;font-style: normal;} 
 
 /* Box Model */
