@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-/*@import url("http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css");
-@import URL("http://cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.css");*/
+@import url("http://cdn.webfont.youziku.com/webfonts/nomal/117734/47012/5b3f5548f629dc068414234e.css");
+/*@import URL("http://cdn.webfont.youziku.com/webfonts/nomal/117734/45558/5b3f56abf629dc068414234f.css");*/
 
 
 /*<!--Youngxkk-五道口小鲨鱼-2017-06-30--> */
@@ -415,8 +415,8 @@
 			-webkit-animation: header 0.1s 0.1s forwards;
 			-ms-animation: header 1s 0.25s forwards;
 			animation: header 1.2s  ease-in-out forwards;
-			width:150px; 
-			height:150px; 
+			width:128px; 
+			height:128px; 
 			border:3px solid rgba(255, 255, 255, 0.4);
 			padding:3px;
 			border-radius:150px; 
