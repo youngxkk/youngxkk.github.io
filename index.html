@@ -12,7 +12,7 @@
 			<div id="main">
 				<!-- Header -->
 					<header id="header">
-						<img class="image" src="assets/css/images/pic01.png" /> 
+						<img class="image" src="pic/pic01.png" /> 
 						<br>
 						<h1>I AM NOT THERE</h1>
 						<p>DESIGN &nbsp;&bull;&nbsp; CODE &nbsp;&bull;&nbsp; BEIJING</p>
@@ -46,6 +46,14 @@
   //       }
   //       setInterval("time()",2000);  
                  //自动刷新时间设定为8秒
+        //下面是随机显示的函数加了时间戳
+        function vistNumber(){
+	   		var a = Math.random, b = parseInt;
+    		return Number(new Date().getTime() + b(10*a()) );
+		}
+
+
+        var randomCount = Math.floor(Math.random() * 30 )
 
 		//下面是背景图每次刷新都随机变化的函数
  		var imgName =  './pic/'+ Math.floor(Math.random() * 18)+'.jpg';
