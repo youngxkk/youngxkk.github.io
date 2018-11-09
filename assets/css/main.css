@@ -78,7 +78,26 @@
 	}
 
 
-
+/*微信二维码 hover显示*/
+.weixin img {
+	width:100%;
+	height:auto;
+	display:block;
+}
+.weixin {
+	position:absolute;
+	width:150px;
+	height:150px;
+	background:#fff;
+	right:-90px;
+	z-index:30;
+	cursor:pointer;
+	transform:rotateY(270deg);
+	transition:all 0.6s ease-in-out 0s;
+}
+.weixin-list:hover .weixin {
+	transform:rotateX(0deg);
+}
 
 /* Main */
 
@@ -321,19 +340,15 @@
 						border: solid 2px rgba(255, 255, 255, 0.9);
 					}
 
-/*				#header nav a:active {
+				#header nav a:active {
 					font-size: 0.95em;
-					background: black;
+					/*background: black;*/
 				}
 
-					#header nav a:active:before {
+/*					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
-					}
-
-				#header nav a span {
-					display: none;
-				}*/
+						color: #000;
+					}*/
 
 /*背景图的切换动画*/
 	.cb-slideshow li span {
