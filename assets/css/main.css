@@ -185,6 +185,10 @@
 			opacity: 0.88;
 		}
 
+		#header p:hover{
+			opacity: 0.5;
+		}
+
 		#header nav {
 			margin: 0 0 0 0;
 		}
