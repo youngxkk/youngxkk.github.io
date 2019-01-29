@@ -185,7 +185,7 @@
 			opacity: 0.88;
 		}
 
-		#header p:hover{
+		#header p a:hover{
 			opacity: 0.5;
 		}
 
