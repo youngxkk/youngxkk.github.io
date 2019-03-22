@@ -1,82 +1,91 @@
 <!DOCTYPE HTML>
 <!--Youngxkk-->
 <html>
-	<head>
-		<title>Youngxkk-I am not here</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+<head>
+    <title>Youngxkk-I am not here</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 
-		<script>
-			var _hmt = _hmt || [];
-			(function() {
-			  var hm = document.createElement("script");
-			  hm.src = "https://hm.baidu.com/hm.js?72da1b14d7f75916a2f127898e88e9b2";
-			  var s = document.getElementsByTagName("script")[0]; 
-			  s.parentNode.insertBefore(hm, s);
-			})();
-		</script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?72da1b14d7f75916a2f127898e88e9b2";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
-	</head>
-	<body class="loading">
-			<div id="bg"></div>
-			<div id="main">
-				<!-- Header -->
-					<header id="header">
-						<img class="image" src="pic/pic01.png" /> 
-						<br>
-						<h1>I AM NOT THERE</h1>
-						<p>
-							<a href="https://itunes.apple.com/cn/app/max-wallpaper/id1420435738"> MAX WALLPAPER </a> 
-							&nbsp;&bull;&nbsp; 
-							<a href="https://itunes.apple.com/cn/app/id1442060995"> POSE CAMERA </a>
-							&nbsp;&bull;&nbsp; 
-							<a href="https://itunes.apple.com/cn/app/maxcube/id1421082306"> MAX CUBE </a>
-						</p>
-						<br>
-						<nav>
-							<ul>
-								<!-- <a href="#"></a> -->
-								<li><a href="https://dribbble.com/Youngxkk" class="icon fa-dribbble"></a></li>
-								<li><a id="weixin" href="javascript:void(0)" class="icon fa-wechat"><img src="pic/code.jpg"></a></li>
-								<li><a href="https://github.com/youngxkk" target="view_window" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.facebook.com/youngxkk" class="icon fa-facebook"></a></li>
-								
-							</ul>
-					</header>
+</head>
+<body class="loading">
+    <div id="bg"></div>
+    <div id="main">
+        <!-- Header -->
+            <header id="header">
+                <img class="image" src="pic/pic01.png" /> 
+                <br>
+                <h1>I AM NOT THERE</h1>
+                <p>
+                    <a href="https://itunes.apple.com/cn/app/max-wallpaper/id1420435738"> MAX WALLPAPER </a> 
+                    &nbsp;&bull;&nbsp; 
+                    <a href="https://itunes.apple.com/cn/app/id1442060995"> POSE CAMERA </a>
+                    &nbsp;&bull;&nbsp; 
+                    <a href="https://itunes.apple.com/cn/app/maxcube/id1421082306"> MAX CUBE </a>
+                </p>
+                <br>
+                <nav>
+                    <ul>
+                        <!-- <a href="#"></a> -->
+                        <li><a href="https://dribbble.com/Youngxkk" class="icon fa-dribbble"></a></li>
+                        <li><a id="weixin" href="javascript:void(0)" class="icon fa-wechat"><img src="pic/code.jpg"></a></li>
+                        <li><a href="https://github.com/youngxkk" target="view_window" class="icon fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="https://www.facebook.com/youngxkk" class="icon fa-facebook"></a></li>
+                    </ul>
+            </header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; YOUNGXKK . DESIGN</span>
-					</footer>
+        <!-- Footer -->
+            <footer id="footer">
+                <span class="copyright">&copy; YOUNGXKK . DESIGN</span>
+            </footer>
 
-			</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-
-
-		 <script type="text/javascript">
-
-        //下面是随机显示的函数加了时间戳
-  //       function vistNumber(){
-	 //   		var a = Math.random, b = parseInt;
-  //   		return Number(new Date().getTime() + b(10*a()) );
-		// }
+    </div>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 
 
-        // var randomCount = Math.floor(Math.random() * 30 )
+    <script type="text/javascript">
+    //下面是背景图每次刷新都随机变化的函数
+    var imgName =  './pic/'+ Math.floor(Math.random() * 18)+'.jpg';
+    document.body.style.background  ='url('+imgName+') center no-repeat';
+    document.body.style.backgroundSize = 'cover'; 
+    document.body.style.backgroundColor = "rgba(0,0,0,0.9) ";
+    // 下面是什么我也不知道，但是不能删
+    window.onload = function() { document.body.className = ''; }
+    window.ontouchmove = function() { return false; }
+    window.onorientationchange = function() { document.body.scrollTop = 0; }
 
-		//下面是背景图每次刷新都随机变化的函数
- 		var imgName =  './pic/'+ Math.floor(Math.random() * 18)+'.jpg';
- 		document.body.style.background  ='url('+imgName+') center no-repeat';
- 		document.body.style.backgroundSize = 'cover'; 
- 		document.body.style.backgroundColor = "rgba(0,0,0,0.9) ";
-		// 下面是什么我也不知道，但是不能删
-		window.onload = function() { document.body.className = ''; }
-		window.ontouchmove = function() { return false; }
-		window.onorientationchange = function() { document.body.scrollTop = 0; }
+    //下面是获屏幕宽度设置字体大小的方法
+    var docEl = document.documentElement;
+    function setRemUnit() {
+        // 临时添加，兼容桌面
+        // var docEl = document.documentElement;
+        var width = docEl.getBoundingClientRect().width;
+        var rem = width / 10;
+        rem = parseFloat(rem.toFixed(3));
+        docEl.style.fontSize = rem + 'px';
+        // 修正系统字体调整造成的布局问题
+        var realitySize = parseFloat(window.getComputedStyle(document.documentElement).fontSize);
+        if (rem !== realitySize) {
+            rem = rem * rem / realitySize;
+            docEl.style.fontSize = rem + 'px';
+        }
+    }
+    // reset rem unit on page resize
+    window.addEventListener('resize', setRemUnit);
+    setRemUnit();
+    </script>
 
-		</script>
-
-	</body>
+</body>
 </html>
+
 <!--Youngxkk-五道口小鲨鱼-2017-06-30-->
