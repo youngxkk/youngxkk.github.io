@@ -186,7 +186,6 @@
 		#header p a:hover{
 			opacity: 0.5;
 		}
-
 		#header nav {
 			margin: 0 0 0 0;
 		}
@@ -331,7 +330,7 @@ opacity: 1;
 	    background-repeat: none;
 	    opacity: 0;
 	    z-index: 0;
-		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 	    -webkit-animation: imageAnimation 36s linear infinite 0s;
 	    -moz-animation: imageAnimation 36s linear infinite 0s;
 	    -o-animation: imageAnimation 36s linear infinite 0s;
@@ -395,10 +394,12 @@ opacity: 1;
 		width: 100%;
 		opacity: 0.56;
 	}
-
+	#footer a:hover{
+		opacity: 0.8;
+	}
 /* head image */	
 	.image { 
-			moz-animation: header 0.25s 0.25s forwards;
+			-moz-animation: header 0.25s 0.25s forwards;
 			-webkit-animation: header 0.1s 0.1s forwards;
 			-ms-animation: header 1s 0.25s forwards;
 			animation: header 1.2s  ease-in-out forwards;
@@ -411,4 +412,4 @@ opacity: 1;
 			/*border-width: 10px;*/
 	}
 
-<!--Youngxkk-五道口小鲨鱼-2017-06-30--> 
+/* <!--Youngxkk-五道口小鲨鱼-2017-06-30--->  */
